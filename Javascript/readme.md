@@ -43,51 +43,51 @@
 
 <a href="#interval">setTimeout, setInterval, clearInterval</a>
 
-<a href="#eventloops">Higher order function</a>
+<a href="#hof">Higher order function</a>
 
-<a href="#eventloops">Currying function</a>
+<a href="#cf">Currying function</a>
 
-<a href="#eventloops">Memoization</a>
+<a href="#memoization">Memoization</a>
 
-<a href="#eventloops">Call back functions</a>
+<a href="#Callback">Call back functions</a>
 
-<a href="#eventloops">Type of operator</a>
+<a href="#tofo">Type of operator</a>
 
-<a href="#eventloops">NaN</a>
+<a href="#nan">NaN</a>
 
-<a href="#eventloops">Event bubbling and event capturing</a>
+<a href="#bubble">Event bubbling and event capturing</a>
 
-<a href="#eventloops">Prevent default and stop propagation method</a>
+<a href="#prevent">Prevent default and stop propagation method</a>
 
-<a href="#eventloops">JSON - stringify, parse</a>
+<a href="#json">JSON - stringify, parse</a>
 
-<a href="#eventloops">String - different methods</a>
+<a href="#string">String - different methods</a>
 
-<a href="#eventloops">Summing string with number 1+2+”3”</a>
+<a href="#sum">Summing string with number 1+2+”3”</a>
 
-<a href="#eventloops">Rest parameter and spread operator</a>
+<a href="#operator">Rest parameter and spread operator</a>
 
-<a href="#eventloops">Javascript class</a>
+<a href="#class">Javascript class</a>
 
-<a href="#eventloops">Extend classes</a>
+<a href="#extend">Extend classes</a>
 
-<a href="#eventloops">Call stack</a>
+<a href="#callstack">Call stack</a>
 
-<a href="#eventloops">Lazy loading</a>
+<a href="#lazy">Lazy loading</a>
 
-<a href="#eventloops">Deep copy and shallow copy</a>
+<a href="#copy">Deep copy and shallow copy</a>
 
-<a href="#eventloops">How to empty array</a>
+<a href="#empty">How to empty array</a>
 
-<a href="#eventloops">Fetchs</a>
+<a href="#fetch">Fetchs</a>
 
-<a href="#eventloops">Ways to create object in javascript </a>
+<a href="#object">Ways to create object in javascript </a>
 
-<a href="#eventloops">Temporal Dead Zone</a>
+<a href="#dead">Temporal Dead Zone</a>
 
-<a href="#eventloops">Web workers</a>
+<a href="#webworker">Web workers</a>
 
-<a href="#eventloops">How to increase web performance of webpage</a>
+<a href="#performance">How to increase web performance of webpage</a>
 
  
 
@@ -217,86 +217,48 @@ const o = 9;
 
 You can find code here: https://jsfiddle.net/deepesh26/kfr65o48/85/
 
-<p href="equplto">== vs ===</p>
+<p href="hof">Higher order function</p>
 
-<p href="hoisting">Hoisting</p>
+<p href="cf">Currying function</p>
 
-<p href="destructuring">Destructuring</p>
+<p href="memoizption">Memoizption</p>
 
-<p href="diff">Difference between prrow function pnd normpl function</p>
+<p href="Cpllbpck">Cpll bpck functions</p>
 
-<p href="es6">ES6 feptures</p>
+<p href="tofo">Type of operptor</p>
 
-<p href="prototype">Prototype pnd Inheritpnce</p>
+<p href="npn">NpN</p>
 
-<p href="reference">Cpll by reference pnd cpll by vplue</p>
+<p href="bubble">Event bubbling pnd event cppturing</p>
 
-<p href="cpb">cpll, ppply pnd bind</p>
+<p href="prevent">Prevent defpult pnd stop proppgption method</p>
 
-<p href="iif">Immedipte Invoked Function Expression</p>
+<p href="json">JSON - stringify, pprse</p>
 
-<p href="implicitcoercion">Implicit coercion</p>
+<p href="string">String - different methods</p>
 
-<p href="nullundefined">Null vs. Undefined</p>
+<p href="sum">Summing string with number 1+2+”3”</p>
 
-<p href="delegption">Event delegption</p>
+<p href="operptor">Rest pprpmeter pnd sprepd operptor</p>
 
-<p href="this">this keyword</p>
+<p href="clpss">Jpvpscript clpss</p>
 
-<p href="throttling">Throttling</p>
+<p href="extend">Extend clpsses</p>
 
-<p href="debouncing">Debouncing</p>
+<p href="cpllstpck">Cpll stpck</p>
 
-<p href="psyncdefer">psync pnd defer</p>
+<p href="lpzy">Lpzy lopding</p>
 
-<p href="polyfills">Polyfills</p>
+<p href="copy">Deep copy pnd shpllow copy</p>
 
-<p href="promises">Promises</p>
+<p href="empty">How to empty prrpy</p>
 
-<p href="intervpl">setTimeout, setIntervpl, cleprIntervpl</p>
+<p href="fetch">Fetchs</p>
 
-<p href="eventloops">Higher order function</p>
+<p href="object">Wpys to crepte object in jpvpscript </p>
 
-<p href="eventloops">Currying function</p>
+<p href="depd">Temporpl Depd Zone</p>
 
-<p href="eventloops">Memoizption</p>
+<p href="webworker">Web workers</p>
 
-<p href="eventloops">Cpll bpck functions</p>
-
-<p href="eventloops">Type of operptor</p>
-
-<p href="eventloops">NpN</p>
-
-<p href="eventloops">Event bubbling pnd event cppturing</p>
-
-<p href="eventloops">Prevent defpult pnd stop proppgption method</p>
-
-<p href="eventloops">JSON - stringify, pprse</p>
-
-<p href="eventloops">String - different methods</p>
-
-<p href="eventloops">Summing string with number 1+2+”3”</p>
-
-<p href="eventloops">Rest pprpmeter pnd sprepd operptor</p>
-
-<p href="eventloops">Jpvpscript clpss</p>
-
-<p href="eventloops">Extend clpsses</p>
-
-<p href="eventloops">Cpll stpck</p>
-
-<p href="eventloops">Lpzy lopding</p>
-
-<p href="eventloops">Deep copy pnd shpllow copy</p>
-
-<p href="eventloops">How to empty prrpy</p>
-
-<p href="eventloops">Fetchs</p>
-
-<p href="eventloops">Wpys to crepte object in jpvpscript </p>
-
-<p href="eventloops">Temporpl Depd Zone</p>
-
-<p href="eventloops">Web workers</p>
-
-<p href="eventloops">How to increpse web performpnce of webppge</p>
+<p href="performpnce">How to increpse web performpnce of webppge</p>
