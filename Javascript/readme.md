@@ -222,6 +222,94 @@ const o = 9;
 <p id="hoisting"><strong>Hoisting</strong></p>
 
 <p id="destructuring"><strong>Destructuring</strong></p>
+<p>
+Destructing: Destructing assignment is javascript expression which allows us to unpack the values from arrays or properties from objects into distinct variables
+
+ <pre>
+let a, b, rest;
+[a,b] = [1,2];
+console.log(a); // 1
+console.log(b); // 2
+[a, b, ...rest] = [1, 2, 3, 4, 5, 6]; 
+console.log([a, b, ...rest]); // [1, 2, 3, 4, 5, 6]
+
+let x, y, z, k, l;
+const arr = [9, 10, 11];
+[x] = [...arr]; // 9
+[x, y] = [...arr]; //[9, 10]
+[x, y, z] = [...arr]; // [9, 10, 11]
+[x, y, z, k] = [...arr]; // [9, 10, 11, undefined]
+[x, y, z, ...l] = [...arr];// [9, 10, 11]
+
+console.log(x); // 9
+console.log(y); // 10
+console.log(z); // 11
+console.log(k); // undefined
+console.log([x, y, z, ...l]);// [9, 10, 11]
+</pre>
+
+**Default values**
+variable can be assigned a default, in the case that the value unpacked from the array is undefined.
+
+<pre>
+let o, p;
+[o=5, p=2] = [1];
+console.log(o); //1
+console.log(p); //2
+console.log([x, y, z, k=12,...l]);// [9, 10, 11, 12]
+</pre>
+
+**Swaping variables**
+Two variables values can be swapped in one destructuring expression.**
+
+<pre>
+let s1= 1, s2=2;
+[s1, s2] = [s2, s1];
+console.log(s1);
+console.log(s2);
+</pre>
+
+**Passing array returned from function**
+
+<pre>
+function f(){
+return [1,2];
+}
+let val1, val2;
+[val1, val2] = f();
+console.log(val1); //1
+console.log(val2); //2
+</pre>
+
+**ignoring some values**
+
+<pre>
+let val3;
+function f1(){
+return [1,2,3];
+}
+[val1, ,val3] = f1();
+//console.log([val1, ,val3]); //[1, undefined, 3]
+console.log(val3); // 3
+
+//You can also ignore all returned values:
+[, ,] = f1(); 
+//console.log([, ,]); //[undefined, undefined]
+</pre>
+
+**Object Destructing**
+
+<pre>
+const user = {
+id : "1",
+name : "deepesh"
+};
+const {id, name} = user;
+console.log(id);
+console.log(name);
+</pre>
+
+</p>
 
 <p id="diff"><strong>Difference between prrow function pnd normpl function</strong></p>
 
