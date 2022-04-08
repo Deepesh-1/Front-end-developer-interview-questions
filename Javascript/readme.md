@@ -215,7 +215,7 @@ const o = 9;
 <img width="1030" alt="Screenshot 2022-04-08 at 5 59 16 PM" src="https://user-images.githubusercontent.com/32305096/162435799-70dbc240-58ce-46db-8ef8-e08a2adda622.png">
 
 
-You can find code here: https://jsfiddle.net/deepesh26/kfr65o48/85/
+<p>You can find code here: https://jsfiddle.net/deepesh26/kfr65o48/85/</p>
 
 <p href="hof">Higher order function</p>
 
