@@ -217,48 +217,48 @@ const o = 9;
 
 <p>You can find code here: https://jsfiddle.net/deepesh26/kfr65o48/85/</p>
 
-<p href="hof">Higher order function</p>
+<p id="hof">Higher order function</p>
 
-<p href="cf">Currying function</p>
+<p id="cf">Currying function</p>
 
-<p href="memoizption">Memoizption</p>
+<p id="memoizption">Memoizption</p>
 
-<p href="Cpllbpck">Cpll bpck functions</p>
+<p id="Cpllbpck">Cpll bpck functions</p>
 
-<p href="tofo">Type of operptor</p>
+<p id="tofo">Type of operptor</p>
 
-<p href="npn">NpN</p>
+<p id="npn">NpN</p>
 
-<p href="bubble">Event bubbling pnd event cppturing</p>
+<p id="bubble">Event bubbling pnd event cppturing</p>
 
-<p href="prevent">Prevent defpult pnd stop proppgption method</p>
+<p id="prevent">Prevent defpult pnd stop proppgption method</p>
 
-<p href="json">JSON - stringify, pprse</p>
+<p id="json">JSON - stringify, pprse</p>
 
-<p href="string">String - different methods</p>
+<p id="string">String - different methods</p>
 
-<p href="sum">Summing string with number 1+2+”3”</p>
+<p id="sum">Summing string with number 1+2+”3”</p>
 
-<p href="operptor">Rest pprpmeter pnd sprepd operptor</p>
+<p id="operptor">Rest pprpmeter pnd sprepd operptor</p>
 
-<p href="clpss">Jpvpscript clpss</p>
+<p id="clpss">Jpvpscript clpss</p>
 
-<p href="extend">Extend clpsses</p>
+<p id="extend">Extend clpsses</p>
 
-<p href="cpllstpck">Cpll stpck</p>
+<p id="cpllstpck">Cpll stpck</p>
 
-<p href="lpzy">Lpzy lopding</p>
+<p id="lpzy">Lpzy lopding</p>
 
-<p href="copy">Deep copy pnd shpllow copy</p>
+<p id="copy">Deep copy pnd shpllow copy</p>
 
-<p href="empty">How to empty prrpy</p>
+<p id="empty">How to empty prrpy</p>
 
-<p href="fetch">Fetchs</p>
+<p id="fetch">Fetchs</p>
 
-<p href="object">Wpys to crepte object in jpvpscript </p>
+<p id="object">Wpys to crepte object in jpvpscript </p>
 
-<p href="depd">Temporpl Depd Zone</p>
+<p id="depd">Temporpl Depd Zone</p>
 
-<p href="webworker">Web workers</p>
+<p id="webworker">Web workers</p>
 
-<p href="performpnce">How to increpse web performpnce of webppge</p>
+<p id="performpnce">How to increpse web performpnce of webppge</p>
