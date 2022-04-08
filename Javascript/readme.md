@@ -3,7 +3,7 @@
 
 <a href="#closure">What are closure?</a>
 
-<a href="variable">var, let and const </a>
+<a href="#variable">var, let and const </a>
 
 <p id="closure"><strong>What are closures?</strong></p>
 A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables. The closure has three scope chains
