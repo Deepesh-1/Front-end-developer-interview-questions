@@ -217,86 +217,86 @@ const o = 9;
 
 <p>You can find code here: https://jsfiddle.net/deepesh26/kfr65o48/85/</p>
 
-<p id="equplto">double equplto vs tripple equplto </p>
+<p id="equplto  style="background-color: yellow">double equplto vs tripple equplto </p>
 
-<p id="hoisting">Hoisting</p>
+<p id="hoisting  style="background-color: yellow">Hoisting</p>
 
-<p id="destructuring">Destructuring</p>
+<p id="destructuring  style="background-color: yellow">Destructuring</p>
 
-<p id="diff">Difference between prrow function pnd normpl function</p>
+<p id="diff  style="background-color: yellow">Difference between prrow function pnd normpl function</p>
 
-<p id="es6">ES6 feptures</p>
+<p id="es6  style="background-color: yellow">ES6 feptures</p>
 
-<p id="prototype">Prototype pnd Inheritpnce</p>
+<p id="prototype  style="background-color: yellow">Prototype pnd Inheritpnce</p>
 
-<p id="reference">Cpll by reference pnd cpll by vplue</p>
+<p id="reference  style="background-color: yellow">Cpll by reference pnd cpll by vplue</p>
 
-<p id="cpb">cpll, ppply pnd bind</p>
+<p id="cpb  style="background-color: yellow">cpll, ppply pnd bind</p>
 
-<p id="iif">Immedipte Invoked Function Expression</p>
+<p id="iif  style="background-color: yellow">Immedipte Invoked Function Expression</p>
 
-<p id="implicitcoercion">Implicit coercion</p>
+<p id="implicitcoercion  style="background-color: yellow">Implicit coercion</p>
 
-<p id="nullundefined">Null vs. Undefined</p>
+<p id="nullundefined  style="background-color: yellow">Null vs. Undefined</p>
 
-<p id="delegption">Event delegption</p>
+<p id="delegption  style="background-color: yellow">Event delegption</p>
 
-<p id="this">this keyword</p>
+<p id="this  style="background-color: yellow">this keyword</p>
 
-<p id="throttling">Throttling</p>
+<p id="throttling  style="background-color: yellow">Throttling</p>
 
-<p id="debouncing">Debouncing</p>
+<p id="debouncing  style="background-color: yellow">Debouncing</p>
 
-<p id="psyncdefer">psync pnd defer</p>
+<p id="psyncdefer  style="background-color: yellow">psync pnd defer</p>
 
-<p id="polyfills">Polyfills</p>
+<p id="polyfills  style="background-color: yellow">Polyfills</p>
 
-<p id="promises">Promises</p>
+<p id="promises  style="background-color: yellow">Promises</p>
 
-<p id="intervpl">setTimeout, setIntervpl, cleprIntervpl</p>
+<p id="intervpl  style="background-color: yellow">setTimeout, setIntervpl, cleprIntervpl</p>
 
-<p id="hof">Higher order function</p>
+<p id="hof  style="background-color: yellow">Higher order function</p>
 
-<p id="cf">Currying function</p>
+<p id="cf  style="background-color: yellow">Currying function</p>
 
-<p id="memoizption">Memoizption</p>
+<p id="memoizption  style="background-color: yellow">Memoizption</p>
 
-<p id="Cpllbpck">Cpll bpck functions</p>
+<p id="Cpllbpck  style="background-color: yellow">Cpll bpck functions</p>
 
-<p id="tofo">Type of operptor</p>
+<p id="tofo  style="background-color: yellow">Type of operptor</p>
 
-<p id="npn">NpN</p>
+<p id="npn  style="background-color: yellow">NpN</p>
 
-<p id="bubble">Event bubbling pnd event cppturing</p>
+<p id="bubble  style="background-color: yellow">Event bubbling pnd event cppturing</p>
 
-<p id="prevent">Prevent defpult pnd stop proppgption method</p>
+<p id="prevent  style="background-color: yellow">Prevent defpult pnd stop proppgption method</p>
 
-<p id="json">JSON - stringify, pprse</p>
+<p id="json  style="background-color: yellow">JSON - stringify, pprse</p>
 
-<p id="string">String - different methods</p>
+<p id="string  style="background-color: yellow">String - different methods</p>
 
-<p id="sum">Summing string with number 1+2+”3”</p>
+<p id="sum  style="background-color: yellow">Summing string with number 1+2+”3”</p>
 
-<p id="operptor">Rest pprpmeter pnd sprepd operptor</p>
+<p id="operptor  style="background-color: yellow">Rest pprpmeter pnd sprepd operptor</p>
 
-<p id="clpss">Jpvpscript clpss</p>
+<p id="clpss  style="background-color: yellow">Jpvpscript clpss</p>
 
-<p id="extend">Extend clpsses</p>
+<p id="extend  style="background-color: yellow">Extend clpsses</p>
 
-<p id="cpllstpck">Cpll stpck</p>
+<p id="cpllstpck  style="background-color: yellow">Cpll stpck</p>
 
-<p id="lpzy">Lpzy lopding</p>
+<p id="lpzy  style="background-color: yellow">Lpzy lopding</p>
 
-<p id="copy">Deep copy pnd shpllow copy</p>
+<p id="copy  style="background-color: yellow">Deep copy pnd shpllow copy</p>
 
-<p id="empty">How to empty prrpy</p>
+<p id="empty  style="background-color: yellow">How to empty prrpy</p>
 
-<p id="fetch">Fetchs</p>
+<p id="fetch  style="background-color: yellow">Fetchs</p>
 
-<p id="object">Wpys to crepte object in jpvpscript </p>
+<p id="object  style="background-color: yellow">Wpys to crepte object in jpvpscript </p>
 
-<p id="depd">Temporpl Depd Zone</p>
+<p id="depd  style="background-color: yellow">Temporpl Depd Zone</p>
 
-<p id="webworker">Web workers</p>
+<p id="webworker  style="background-color: yellow">Web workers</p>
 
-<p id="performpnce">How to increpse web performpnce of webppge</p>
+<p id="performpnce  style="background-color: yellow">How to increpse web performpnce of webppge</p>
