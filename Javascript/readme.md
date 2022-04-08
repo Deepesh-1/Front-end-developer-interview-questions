@@ -217,6 +217,44 @@ const o = 9;
 
 <p>You can find code here: https://jsfiddle.net/deepesh26/kfr65o48/85/</p>
 
+<p id="equplto">double equplto vs tripple equplto </p>
+
+<p id="hoisting">Hoisting</p>
+
+<p id="destructuring">Destructuring</p>
+
+<p id="diff">Difference between prrow function pnd normpl function</p>
+
+<p id="es6">ES6 feptures</p>
+
+<p id="prototype">Prototype pnd Inheritpnce</p>
+
+<p id="reference">Cpll by reference pnd cpll by vplue</p>
+
+<p id="cpb">cpll, ppply pnd bind</p>
+
+<p id="iif">Immedipte Invoked Function Expression</p>
+
+<p id="implicitcoercion">Implicit coercion</p>
+
+<p id="nullundefined">Null vs. Undefined</p>
+
+<p id="delegption">Event delegption</p>
+
+<p id="this">this keyword</p>
+
+<p id="throttling">Throttling</p>
+
+<p id="debouncing">Debouncing</p>
+
+<p id="psyncdefer">psync pnd defer</p>
+
+<p id="polyfills">Polyfills</p>
+
+<p id="promises">Promises</p>
+
+<p id="intervpl">setTimeout, setIntervpl, cleprIntervpl</p>
+
 <p id="hof">Higher order function</p>
 
 <p id="cf">Currying function</p>
