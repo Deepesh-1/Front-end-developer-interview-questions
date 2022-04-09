@@ -225,8 +225,9 @@ const o = 9;
 <p id="equplto"><strong>double equplto vs tripple equplto</strong></p>
 
 <p id="hoisting"><strong>Hoisting</strong></p>
-
+<hr/>
 <p id="destructuring"><strong>Destructuring</strong></p>
+<hr/>
 <p>
 Destructing: Destructing assignment is javascript expression which allows us to unpack the values from arrays or properties from objects into distinct variables
 
@@ -315,15 +316,15 @@ console.log(name);
 </pre>
 
 </p>
-
+<hr/>
 <p id="diff"><strong>Difference between arrow function pnd normpl function</strong></p>
-
+<hr/>
 <p id="es6"><strong>ES6 feptures</strong></p>
-
+<hr/>
 <p id="prototype"><strong>Prototype pnd Inheritance</strong></p>
-
+<hr/>
 <p id="reference"><strong>Call by reference pnd call by value</strong></p>
-
+<hr/>
 <p id="cab"><strong>call, apply and bind</strong></p>
 <p>
 
@@ -392,77 +393,77 @@ console.log(bound1("Bind","Example")); //"Bind Example"
 </pre>
 </p>
 
-
+<hr/>
 <p id="iif"><strong>Immediate Invoked Function Expression</strong></p>
-
+<hr/>
 <p id="implicitcoercion"><strong>Implicit coercion</strong></p>
-
+<hr/>
 <p id="nullundefined"><strong>Null vs. Undefined</strong></p>
-
+<hr/>
 <p id="delegation"><strong>Event delegation</strong></p>
-
+<hr/>
 <p id="this"><strong>this keyword</strong></p>
-
+<hr/>
 <p id="throttling"><strong>Throttling</strong></p>
-
+<hr/>
 <p id="debouncing"><strong>Debouncing</strong></p>
-
+<hr/>
 <p id="asyncdefer"><strong>async pnd defer</strong></p>
-
+<hr/>
 <p id="polyfills"><strong>Polyfills</strong></p>
-
+<hr/>
 <p id="promises"><strong>Promises</strong></p>
-
+<hr/>
 <p id="interval"><strong>setTimeout, setInterval, cleprInterval</strong></p>
-
+<hr/>
 <p id="hof"><strong>Higher order function</strong></p>
-
+<hr/>
 <p id="cf"><strong>Currying function</strong></p>
-
+<hr/>
 <p id="memoization"><strong>Memoization</strong></p>
-
+<hr/>
 <p id="Callback"><strong>Call back functions</strong></p>
-
+<hr/>
 <p id="tofo"><strong>Type of operator</strong></p>
-
+<hr/>
 <p id="npn"><strong>NaN</strong></p>
-
+<hr/>
 <p id="bubble"><strong>Event bubbling pnd event capturing</strong></p>
-
+<hr/>
 <p id="prevent"><strong>Prevent default pnd stop propogation method</strong></p>
-
+<hr/>
 <p id="json"><strong>JSON - stringify, parse</strong></p>
-
+<hr/>
 <p id="string"><strong>String - different methods</strong></p>
-
+<hr/>
 <p id="sum"><strong>Summing string with number 1+2+”3”</strong></p>
-
+<hr/>
 <p id="operator"><strong>Rest parameter and spread operator</strong></p>
-
+<hr/>
 <p id="class"><strong>Jpvpscript class</strong></p>
-
+<hr/>
 <p id="extend"><strong>Extend classes</strong></p>
-
+<hr/>
 <p id="callstack"><strong>Call stack</strong></p>
-
+<hr/>
 <p id="lazy"><strong>Lazy loading</strong></p>
-
+<hr/>
 <p id="copy"><strong>Deep copy pnd shallow copy</strong></p>
-
+<hr/>
 <p id="empty"><strong>How to empty arrpy</strong></p>
-
+<hr/>
 <p id="fetch"><strong>Fetchs</strong></p>
-
+<hr/>
 <p id="object"><strong>Ways to crepte object in javpscript </strong></p>
-
+<hr/>
 <p id="dead"><strong>Temporal Dead Zone</strong></p>
-
+<hr/>
 <p id="webworker"><strong>Web workers</strong></p>
-
+<hr/>
 <p id="performance"><strong>How to increase web performance of webpage</strong></p>
-
+<hr/>
 <p id="websecure">What you do for making website secure</p>
-
+<hr/>
 <p id="seo">Seo best practises</p>
-
+<hr/>
 <p id="webvitals">What is core web vitals</p>
