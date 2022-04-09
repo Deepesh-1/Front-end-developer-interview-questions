@@ -326,7 +326,8 @@ console.log(name);
 
 <p id="cab"><strong>call, apply and bind</strong></p>
 <p>
-**Call**
+
+<strong>call</strong>
  
 Definition of MDN docs:
  
