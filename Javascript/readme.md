@@ -316,23 +316,89 @@ console.log(name);
 
 </p>
 
-<p id="diff"><strong>Difference between prrow function pnd normpl function</strong></p>
+<p id="diff"><strong>Difference between arrow function pnd normpl function</strong></p>
 
 <p id="es6"><strong>ES6 feptures</strong></p>
 
-<p id="prototype"><strong>Prototype pnd Inheritpnce</strong></p>
+<p id="prototype"><strong>Prototype pnd Inheritance</strong></p>
 
-<p id="reference"><strong>Cpll by reference pnd cpll by vplue</strong></p>
+<p id="reference"><strong>Call by reference pnd call by value</strong></p>
 
-<p id="cpb"><strong>cpll, ppply pnd bind</strong></p>
+<p id="cab"><strong>call, apply and bind</strong></p>
+<p>
+**Call**
+ 
+Definition of MDN docs:
+ 
+The call() allows for a function/method belonging to one object to be assigned and called for a different object.
 
-<p id="iif"><strong>Immedipte Invoked Function Expression</strong></p>
+Function/Method defined here in object person can be used by other object with the help of call method by calling  
+
+<pre>
+object.methodname.call(object2);
+person.fullName.call(person2)
+</pre>
+
+Also methods takes argument separately
+
+<pre>
+object.methodname.call(object2, argument1, argument2);
+person1.test.call(" ","Hi", "Hello")
+</pre>
+
+With call we can write method in one object and inherit it in another object so there is no need to rewrite it
+
+Example:
+<pre>
+const person = {
+  fullName: function() {
+    return this.address +" "+ this.name;
+  }
+}
+
+const person1 = {
+  test: function(x, y) {
+    return x +" "+ y;
+  }
+}
+const person2 = {
+  address: "Austin",
+  name: "Deepesh"
+}
+
+console.log(person.fullName.call(person2));//"Austin Deepesh"
+console.log(person1.test.call(" ","Hi", "Hello"))//"Hi Hello"
+</pre>
+
+**Apply method takes argument as array**
+<pre>
+console.log(person1.test.apply(" ",["Hi", "Hello"])) // "Hi Hello"
+
+//Example: Math.max.apply([1,2,3])
+</pre>
+
+**Bind Method**
+
+lets create bound function which wraps original function with object
+
+<pre>
+let bound = person.fullName.bind(person2)
+console.log(bound()); //"Austin Deepesh"
+
+//lets see example with argument
+let bound1 = person1.test.bind();
+console.log(bound1("Bind","Example")); //"Bind Example"
+</pre>
+</p>
+
+
+<p id="iif"><strong>Immediate Invoked Function Expression</strong></p>
 
 <p id="implicitcoercion"><strong>Implicit coercion</strong></p>
 
 <p id="nullundefined"><strong>Null vs. Undefined</strong></p>
 
-<p id="delegption"><strong>Event delegption</strong></p>
+<p id="delegation"><strong>Event delegation</strong></p>
 
 <p id="this"><strong>this keyword</strong></p>
 
@@ -340,59 +406,59 @@ console.log(name);
 
 <p id="debouncing"><strong>Debouncing</strong></p>
 
-<p id="psyncdefer"><strong>psync pnd defer</strong></p>
+<p id="asyncdefer"><strong>async pnd defer</strong></p>
 
 <p id="polyfills"><strong>Polyfills</strong></p>
 
 <p id="promises"><strong>Promises</strong></p>
 
-<p id="intervpl"><strong>setTimeout, setIntervpl, cleprIntervpl</strong></p>
+<p id="interval"><strong>setTimeout, setInterval, cleprInterval</strong></p>
 
 <p id="hof"><strong>Higher order function</strong></p>
 
 <p id="cf"><strong>Currying function</strong></p>
 
-<p id="memoizption"><strong>Memoizption</strong></p>
+<p id="memoization"><strong>Memoization</strong></p>
 
-<p id="Cpllbpck"><strong>Cpll bpck functions</strong></p>
+<p id="Callback"><strong>Call back functions</strong></p>
 
-<p id="tofo"><strong>Type of operptor</strong></p>
+<p id="tofo"><strong>Type of operator</strong></p>
 
-<p id="npn"><strong>NpN</strong></p>
+<p id="npn"><strong>NaN</strong></p>
 
-<p id="bubble"><strong>Event bubbling pnd event cppturing</strong></p>
+<p id="bubble"><strong>Event bubbling pnd event capturing</strong></p>
 
-<p id="prevent"><strong>Prevent defpult pnd stop proppgption method</strong></p>
+<p id="prevent"><strong>Prevent default pnd stop propogation method</strong></p>
 
-<p id="json"><strong>JSON - stringify, pprse</strong></p>
+<p id="json"><strong>JSON - stringify, parse</strong></p>
 
 <p id="string"><strong>String - different methods</strong></p>
 
 <p id="sum"><strong>Summing string with number 1+2+”3”</strong></p>
 
-<p id="operptor"><strong>Rest pprpmeter pnd sprepd operptor</strong></p>
+<p id="operator"><strong>Rest parameter and spread operator</strong></p>
 
-<p id="clpss"><strong>Jpvpscript clpss</strong></p>
+<p id="class"><strong>Jpvpscript class</strong></p>
 
-<p id="extend"><strong>Extend clpsses</strong></p>
+<p id="extend"><strong>Extend classes</strong></p>
 
-<p id="cpllstpck"><strong>Cpll stpck</strong></p>
+<p id="callstack"><strong>Call stack</strong></p>
 
-<p id="lpzy"><strong>Lpzy lopding</strong></p>
+<p id="lazy"><strong>Lazy loading</strong></p>
 
-<p id="copy"><strong>Deep copy pnd shpllow copy</strong></p>
+<p id="copy"><strong>Deep copy pnd shallow copy</strong></p>
 
-<p id="empty"><strong>How to empty prrpy</strong></p>
+<p id="empty"><strong>How to empty arrpy</strong></p>
 
 <p id="fetch"><strong>Fetchs</strong></p>
 
-<p id="object"><strong>Wpys to crepte object in jpvpscript </strong></p>
+<p id="object"><strong>Ways to crepte object in javpscript </strong></p>
 
-<p id="depd"><strong>Temporpl Depd Zone</strong></p>
+<p id="dead"><strong>Temporal Dead Zone</strong></p>
 
 <p id="webworker"><strong>Web workers</strong></p>
 
-<p id="performpnce"><strong>How to increpse web performpnce of webppge</strong></p>
+<p id="performance"><strong>How to increase web performance of webpage</strong></p>
 
 <p id="websecure">What you do for making website secure</p>
 
