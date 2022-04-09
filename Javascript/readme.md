@@ -197,9 +197,9 @@ console.log(i);
 let = 10;
 </pre>
 
-**Const keyword**
+**const keyword**
 
-**Const has same properties as let keywords except one that user cannot update it**
+**const has same properties as let keywords except one that user cannot update it**
 
 <pre>
 const q = 10;
@@ -394,6 +394,9 @@ console.log(bound()); //"Austin Deepesh"
 let bound1 = person1.test.bind();
 console.log(bound1("Bind","Example")); //"Bind Example"
 </pre>
+
+<p>JSfiddle link: https://jsfiddle.net/deepesh26/p40md76j/86/</p>
+
 </p>
 
 <hr/>
