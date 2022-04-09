@@ -227,6 +227,18 @@ const o = 9;
 
 <p id="equplto"><strong>double equplto vs tripple equplto</strong></p>
 
+<p>
+= is used to assign value to variable
+== compare two values
+=== compare value and dataype both
+
+1 == "1"    //true
+1 === "1"   //false
+
+ Jsfiddle link : https://jsfiddle.net/deepesh26/3gsr0emd/10/
+
+</p>
+<hr/>
 <p id="hoisting"><strong>Hoisting</strong></p>
 <hr/>
 <p id="destructuring"><strong>Destructuring</strong></p>
