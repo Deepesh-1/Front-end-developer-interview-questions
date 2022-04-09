@@ -89,6 +89,11 @@
 
 <a href="#performance">How to increase web performance of webpage</a>
 
+<a href="#websecure">What you do for making website secure</a>
+
+<a href="#seo">Seo best practises</a>
+
+<a href="#webvitals">What is core web vitals</a>
  
 
 <p id="closure"><strong>What are closures?</strong></p>
@@ -388,3 +393,9 @@ console.log(name);
 <p id="webworker"><strong>Web workers</strong></p>
 
 <p id="performpnce"><strong>How to increpse web performpnce of webppge</strong></p>
+
+<p id="websecure">What you do for making website secure</p>
+
+<p id="seo">Seo best practises</p>
+
+<p id="webvitals">What is core web vitals</p>
