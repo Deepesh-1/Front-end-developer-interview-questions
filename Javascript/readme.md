@@ -1,5 +1,5 @@
 
-**INDEX**
+**QUESTIONS**
 
 <a href="#closure">What are closure?</a>
 
@@ -95,6 +95,9 @@
 
 <a href="#webvitals">What is core web vitals</a>
  
+</hr>
+
+**EXPLANATION**
 
 <p id="closure"><strong>What are closures?</strong></p>
 A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables. The closure has three scope chains
