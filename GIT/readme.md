@@ -1,5 +1,6 @@
 **Check on which branch**
-git branch
+
+<pre>git branch</pre>
 
 **Checkout develop**
 git checkout develop  
