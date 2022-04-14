@@ -3,25 +3,33 @@
 <pre>git branch</pre>
 
 **Checkout develop**
-git checkout develop  
+
+<pre>git checkout develop </pre> 
 
 **Pull latest on develop**
-git pull
+
+<pre>git pull</pre>
 
 **create new branch**
-git checkout -b bugfix/OE-10514
+
+<pre>git checkout -b bugfix/OE-10514</pre>
 
 **Pull latest from develop**
-git pull origin develop   
+
+<pre>git pull origin develop</pre>  
 
 **check the status**
-git status    
+
+<pre>git status</pre>    
 
 **add all the changes**
-git add . 
+
+<pre>git add . </pre>
 
 **Commit the changes**
-git commit -m “message”
+
+<pre>git commit -m “message”</pre>
 
 **Push the changes**
-git push origin bugfix/OE-10514;  
+
+<pre>git push origin bugfix/OE-10514;</pre>  
