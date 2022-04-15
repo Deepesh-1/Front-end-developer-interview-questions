@@ -34,5 +34,3 @@
 
 <pre>git push origin bugfix/OE-10514;</pre>  
 
-**status**
-<pre>est</pre>
