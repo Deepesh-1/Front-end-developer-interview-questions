@@ -34,3 +34,21 @@ CSS INTERVIEW QUESTIONS
 - What do CSS Custom properties variables mean?
 - What is the overflow property in CSS used for?
 - What is word-wrapping in CSS?
+
+CSS Box Model:
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+ 
+p {
+margin: 10px;
+border: 2px solid black;
+padding: 5px;
+width: 50px;
+height: 10px;
+}	 
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+
+![image](https://user-images.githubusercontent.com/32305096/234798102-648cd3d0-c0ee-4dd0-9bfb-78d0010e240d.png)
