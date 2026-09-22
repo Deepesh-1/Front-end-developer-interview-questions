@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function App() {
-  const EMPLOYEES = [
+  const [data, setData] = [
     {
       id: 1,
       name: "Alice Johnson",
@@ -13,7 +13,7 @@ export default function App() {
     },
   ];
   const [query, setQuery] = useState("");
-  const filteredData = EMPLOYEES.filter((item) =>
+  const filteredData = data.filter((item) =>
     item.name.toLowerCase().includes(query.toLowerCase()),
   );
   return (
