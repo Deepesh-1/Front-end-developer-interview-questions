@@ -1,9 +1,16 @@
-//Search functionality
+// Search
 const filteredData = data.filter((item)=>(item.name.toLowerCase().includes(query.toLowerCase())))
-//Sorting functionality
+ 
+// Sorting 
+ 
+  // Ascending
  [...users].sort((a,b)=> a.name.localeCompare(b.name))
+ 
+  // Descending
  [...users].sort((a,b)=> b.name.localeCompare(a.name))
-//Sorting toggle
+
+
+  // Sorting toggle
 const [sortType, setSortType] = useState("ascending")
   const toggleSort = () => {
     const toggleSortType = [...users].sort((a, b) =>
