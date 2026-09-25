@@ -1,5 +1,8 @@
 # Intersection Observer --- Understanding the Basics
 
+## Definition: 
+IntersectionObserver watches an element and tells you when that element enters or leaves the viewport
+
 ### What happens?
 
 Initially:
