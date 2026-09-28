@@ -1,0 +1,36 @@
+
+<head>
+  <style>
+      #loader {
+      margin-top: 1000px;
+      padding: 50px;
+      background: lightblue;
+      text-align: center;
+    }
+    </style>
+<script>
+const loader = document.getElementById('loader')
+//create observer and tell me if somelement interect with it
+const observer = new IntersectionObserver((entries) => {
+  // box element to watch
+  const entry = entries[0]
+  if (entry.isIntersecting) {
+    console.log('It is visible')
+  }
+  else{
+    console.log('False')
+  }
+})
+observer.observe(loader)
+  </script>
+</head>
+<body>
+  <div id="item1">Item 1</div>
+<div id="item2">Item 2</div>
+<div id="item3">Item 3</div>
+
+<!-- We observe this -->
+<div id="loader">Loading...</div>
+</body>
+
+
