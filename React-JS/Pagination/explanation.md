@@ -28,6 +28,7 @@ totalPage = Math.ceil(totalProducts/limit)   The math.ceil() function rounds a n
 totalPage = Math.ceil(194/10) = Math.ceil(19.4) = 20 pages
 currentpage is set to 1
 skip = (currentPage-1) multiply limit 
+fetch(`/products?limit=${limit}&skip=${skip}`);
 Initially: (1-1)* 10 = 0, 
 onNext click: 10,20,30
 onPrevious click:30, 20, 10
@@ -36,6 +37,7 @@ Prev page => currentPage - 1 if currentPage > 1
 Prev page button disable={currentPage===1}
 Next page button disable={currentPage===totalPage}
 {currentPage} of {totalPage}
+
 ___________________________________________________________________________________________
 
               USER
@@ -114,7 +116,10 @@ we kept disabled={currentPage===totalPage} on next button property so it will be
 
 <img width="850" height="714" alt="image" src="https://github.com/user-attachments/assets/5f9f9f9a-7d03-43eb-af67-fe142ab58e3c" />
 
-![Uploading React Pagination Flow Guide.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5dfda8ee-08d6-43d8-980b-c6c201e597a2" />
+
+
+
 
 
 
