@@ -122,6 +122,10 @@ we kept disabled={currentPage===1} on previous button property so it will be dis
 we kept disabled={currentPage===totalPage} on next button property so it will be disabled
 
 
+![Uploading React Pagination Flow Guide.png…]()
+
+
+
 
 
 
