@@ -17,17 +17,8 @@ Page 10 → Products 91–100
 
 ___________________________________________________________________________________________
 
-             PAGINATION
-                 │
-       ┌─────────┼──────────────────┐
-       ↓         ↓                  ↓
-   currentPage pageSize(limit)   total
-       │                           │
-       └──────────┬────────────────┘
-                  ↓
-             API request
-                  ↓
-          Display page data
+<img width="558" height="476" alt="image" src="https://github.com/user-attachments/assets/2d55d025-64bb-4593-a440-57b115afd791" />
+
 ___________________________________________________________________________________________
 
 limit = 10
@@ -121,8 +112,10 @@ we kept disabled={currentPage===1} on previous button property so it will be dis
        ↓
 we kept disabled={currentPage===totalPage} on next button property so it will be disabled
 
+<img width="850" height="714" alt="image" src="https://github.com/user-attachments/assets/5f9f9f9a-7d03-43eb-af67-fe142ab58e3c" />
 
 ![Uploading React Pagination Flow Guide.png…]()
+
 
 
 
