@@ -2,6 +2,59 @@ Yes. For interview revision, I'd keep it to one page. This is enough:
 
 # React Infinite Scroll
 
+                  USER
+                   │
+                   ↓
+                SCROLL
+                   │
+                   ↓
+          Loader enters viewport
+                   │
+                   ↓
+        IntersectionObserver
+                   │
+                   ↓
+          isIntersecting?
+             │           │
+            NO          YES
+             │           │
+             ↓           ↓
+           STOP      fetchData()
+                         │
+                         ↓
+                 loading / hasmore
+                         │
+                    ┌────┴────┐
+                    │         │
+                   STOP    Continue
+                              │
+                              ↓
+                         API Request
+                              │
+                         limit = 20
+                         skip = 20
+                              │
+                              ↓
+                        API Response
+                              │
+                    ┌─────────┴─────────┐
+                    ↓                   ↓
+                products              total
+                    │                   │
+                    ↓                   ↓
+              append data          check hasMore
+                    │
+                    ↓
+            skip += products.length
+                    │
+                    ↓
+               Render more
+                    │
+                    ↓
+                User scrolls
+                    │
+                    └──────────────→ Repeat
+
 ## 1. Concept
 
 Infinite scroll automatically loads the next batch of data when the user
@@ -25,7 +78,9 @@ Append Products
 Repeat
      ↓
 No More Data → Stop
-2. Architecture
+
+**2. Architecture**
+
         React Component
               │
               ▼
@@ -51,7 +106,8 @@ No More Data → Stop
     IntersectionObserver
               │
               └──────→ fetchData()
-3. Main State
+              
+**3. Main State**
 data       // Loaded products
 loading    // Prevent duplicate requests
 hasmore    // Stop when all data is loaded
@@ -67,7 +123,7 @@ skip = 40  → products 41-60
 Infinite scroll still uses pagination internally; it just hides the
 pagination controls from the user.
 
-4. IntersectionObserver
+**4. IntersectionObserver**
 const observer = new IntersectionObserver(([entry]) => {
   if (entry.isIntersecting) {
     fetchData();
@@ -88,7 +144,7 @@ window.addEventListener('scroll', ...)
 
 the browser tells us when the element becomes visible.
 
-5. Important Guards
+**5. Important Guards**
 if (loading || !hasmore) {
   return;
 }
@@ -100,7 +156,7 @@ hasmore
 
 Stops fetching when all records are loaded.
 
-6. Append Data
+**6. Append Data**
 setData((prev) => [
   ...prev,
   ...userdata.products
@@ -112,7 +168,8 @@ Existing: [1,2,3,4,5]
 New:      [6,7,8]
 
 Result:   [1,2,3,4,5,6,7,8]
-7. End of Data
+
+**7. End of Data**
 if (skip + products.length >= total) {
   setHasmore(false);
 }
@@ -124,7 +181,8 @@ hasmore = false
 Stop API calls
       ↓
 Show "No more products"
-8. useRef
+
+**8. useRef**
 const loaderRef = useRef(null);
 
 Used to get the DOM element that IntersectionObserver watches.
@@ -132,7 +190,7 @@ Used to get the DOM element that IntersectionObserver watches.
 useRef is appropriate because changing the DOM reference doesn't need
 a React re-render.
 
-9. Important Interview Concept — Stale Closure
+**9. Important Interview Concept — Stale Closure**
 
 fetchData() uses changing values:
 
@@ -155,7 +213,8 @@ Production solutions:
 useRef
    OR
 useCallback
-10. Interview Answer
+
+**10. Interview Answer**
 
 "I use IntersectionObserver with a sentinel element at the bottom of the
 list. Initially I fetch data using limit and skip. When the sentinel enters
