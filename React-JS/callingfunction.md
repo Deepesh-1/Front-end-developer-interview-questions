@@ -1,0 +1,3 @@
+⭐ Interview answer
+
+”onClick={handleClick} passes the function reference to React, so React invokes it when the event occurs. onClick={() => handleClick()} creates a wrapper function that React invokes later. I use the wrapper mainly when I need to pass arguments or perform additional logic. onClick={handleClick()} invokes the function immediately during render, so it should generally be avoided for event handlers.”
