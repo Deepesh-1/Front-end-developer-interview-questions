@@ -41,3 +41,37 @@ Clothing Store
 ├── Product Details
 │
 └── Checkout
+
+                         CLOTHING STORE
+                               │
+             ┌─────────────────┼─────────────────┐
+             ↓                 ↓                 ↓
+           HOME            PRODUCTS          CHECKOUT
+             │
+         Server Component      │                 │
+            SSG        Server + Client      Dynamic
+             │                 │                 │
+             │          ┌──────┴──────┐          │
+             │          ↓             ↓          │
+             │       Search        Filters       │
+             │       Client         Client       │
+             │          │             │          │
+             │          └──────┬──────┘          │
+             │                 ↓                 │
+             │           Product Grid            │
+             │              Server               │
+             │                                   │
+             └──────────────┐                    │
+                            ↓                    │
+                       PRODUCT DETAIL            │
+                            │                    │
+                         ISR/SSG                 │
+                            │                    │
+                     ┌──────┴──────┐             │
+                     ↓             ↓             │
+                  Product      Add To Cart       │
+                   Server         Client         │
+                                                 │
+                                                 ↓
+                                               Checkout
+                                               Dynamic
