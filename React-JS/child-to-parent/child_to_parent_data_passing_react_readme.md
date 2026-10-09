@@ -147,7 +147,8 @@ When the user clicks the button:
 
 # Visual Diagram
 
-![Passing data from child to parent](./a_clean_infographic_tutorial_page_like_a_readme.m.png)
+<img width="1223" height="1286" alt="image" src="https://github.com/user-attachments/assets/24f568ea-399c-4361-9aa4-24ba637a0507" />
+
 
 ---
 
