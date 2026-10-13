@@ -350,7 +350,7 @@ Definition of MDN docs:
 The call() allows for a function/method belonging to one object to be assigned and called for a different object.
 
 Function/Method defined here in object person can be used by other object with the help of call method by calling  
-
+Js fiddle: https://jsfiddle.net/4jpcmxeL/19/
 <pre>
 object.methodname.call(object2);
 person.fullName.call(person2)
