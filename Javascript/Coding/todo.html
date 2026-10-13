@@ -1,0 +1,80 @@
+  <h1>Todos</h1>
+
+  <!-- <div id="error"></div> -->
+
+  <ul id="todoList"></ul>
+<!-- 
+  <p id="loading" hidden>Loading...</p> -->
+
+  <button id="loadMore">
+    Load More
+  </button>
+
+<script>
+  const API_URL = 'https://dummyjson.com/todos';
+const LIMIT = 20;
+const MAX_TODOS = 100;
+
+let todos = [];
+let skip = 0;
+
+const todoList = document.getElementById('todoList');
+const loadMoreButton = document.getElementById('loadMore');
+//const loading = document.getElementById('loading');
+//const error = document.getElementById('error');
+
+async function fetchTodos() {
+  //try {
+   loading.hidden = false;
+   // error.textContent = '';
+
+    const response = await fetch(`${API_URL}?limit=${LIMIT}&skip=${skip}`);
+
+    // if (!response.ok) {
+    //   throw new Error('Failed to fetch todos');
+    // }
+
+    const data = await response.json();
+
+    // Add newly fetched todos
+    todos = [...todos, ...data.todos];
+
+    // Move skip forward
+    skip += LIMIT;
+
+    renderTodos();
+
+    // Hide button after 100 todos
+    if (todos.length >= MAX_TODOS) {
+      loadMoreButton.hidden = true;
+    }
+  //} catch (err) {
+  //  error.textContent = err.message;
+  //} finally {
+ //   loading.hidden = true;
+  //}
+}
+
+function renderTodos() {
+  todoList.innerHTML = '';
+
+  todos.forEach((todo) => {
+    const li = document.createElement('li');
+
+    li.textContent =
+      `${todo.id}. ${todo.todo} - ` +
+      `${todo.completed ? 'Completed' : 'Pending'}`;
+
+    todoList.appendChild(li);
+  });
+}
+
+loadMoreButton.addEventListener('click', fetchTodos);
+
+// Initial fetch
+fetchTodos();
+
+// fetch the api with limit 20
+
+</script>
+  
